@@ -1,3 +1,3 @@
 output "testing" {
-    value = "hello world"
+    value = var.test
 }
