@@ -3,6 +3,6 @@ resource "random_id" "server2" {
 }
 
 moved {
-  from = resource.random_id.server
-  to = resource.random_id.server2
+  from = random_id.server
+  to = random_id.server2
 }
